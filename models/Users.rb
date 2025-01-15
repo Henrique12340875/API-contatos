@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-class User
-    has_many :contact
+class User < ActiveRecord::Base
+    has_many :contacts
 end
